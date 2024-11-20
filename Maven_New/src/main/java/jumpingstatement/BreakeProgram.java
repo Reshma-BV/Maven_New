@@ -9,8 +9,8 @@ public class BreakeProgram
 		{
 			if(i==5)
 			{
-				//break;//if the condition matches, then stop the iteration
-				continue;
+				break;//if the condition matches, then stop the iteration
+				//continue;
 			}
 			System.out.println(i);
 		}

@@ -3,4 +3,40 @@
   <groupId>com.obsqura</groupId>
   <artifactId>Maven_New</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.3.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.3.0</version>
+</dependency>
+</dependencies>
+<name>jenkins</name>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>		
+<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>polymorphism.BabyDog</mainClass>
+						</manifest>
+</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

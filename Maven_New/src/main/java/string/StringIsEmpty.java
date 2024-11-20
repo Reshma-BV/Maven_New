@@ -11,6 +11,7 @@ public class StringIsEmpty
 
 		System.out.println(s.isEmpty());
 		System.out.println(s1.isEmpty());
+		System.out.println(s3.isEmpty());
 
 	}
 
